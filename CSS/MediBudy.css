@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+.NavbarContactDetails a{
+
+    text-decoration: none;
+    margin-inline: 15px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+
+.AdjustImgSize{
+    width: 70px;
+}
+
+.FormatInA a{
+
+    display: inline-block;
+}
+.box{
+    display: flex;
+    flex-direction: column-reverse; 
+   }
+.SectionA_Col{
+    border: 1px solid rgba(0, 0, 0, 0.173);
+    border-radius: 10px;
+}
+.SectionA_Col:hover{
+    box-shadow: 2px 2px 3px black;
+    transition: 0.5s ease-in-out;
+}
+.SectionA_MainContent{
+    padding-block: 10px;
+}
+.SectionA_MainContent h6{
+    font-weight: 600;
+}
+.SectionA_MainContent i{
+    font-size: 10px;
+}
+.SectionA_MainContent p{
+    font-size: 13px;
+
+}
+.SectionA1_Col1 p{
+    font-size: 13px;
+    color: chartreuse;
+    font-weight: 500;
+    font-size: 12px;
+    height: 16px;
+    padding-inline: 5px;
+
+}
+.SectionA1_Col1 span{
+    font-size: 12px;
+    color: rgba(64, 71, 77, 0.738);
+  text-decoration: line-through;
+}
+
+.SectionB div{
+    border-radius: 20px;
+    height: 150px;
+    width: 150px;
+    margin-inline: 10px;
+    margin-block: 10px
+}
+
+.SectionCBgImg1{
+    background-image: url(/Images/a40-female.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 20px;
+    height: 250px;
+    width: 100%;
+
+}
+
+
+.SectionCBgImg2{
+    background-image: url(/Images/a40-male.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 20px;
+    height: 250px;
+    width: 100%;
+}
+
+.SectionCBgImg3{
+    background-image: url(/Images/b40-female.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 20px;
+    height: 250px;
+    width: 100%;
+}
+
+.SectionCBgImg4{
+    background-image: url(/Images/b40-male.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 20px;
+    height: 250px;
+    width: 100%;
+}
+
+.SectionDBgClr{
+    background-color:#cedaf3;
+    border-radius: 25px;
+}
+.FontEffect p , .RebildFont{
+    font-weight: 500;
+    color: #050A4E;
+}
+.FontEffects{
+    color: #050A4E;
+}
+.ResizeFonts p ,i{
+font-size: 13px;
+}
+.BGColorLG{
+    background:linear-gradient(to right,rgba(0, 0, 255, 0.534), rgba(255, 0, 0, 0.547));
+}
+.AdjustFontsli li{
+ font-size: 12px;
+ font-weight: lighter;
+}
+.AdjustFontsP p{
+    font-size: 13px;
+    color: #050A4E;
+}
+.BgColorLGFooter{
+    background: linear-gradient(to bottom right, rgba(0, 0, 255, 0.59), rgba(255, 0, 0, 0.557));
+}
+.AdjustFontLI li{
+    font-size: 12px;
+    font-weight: lighter;
+    color: rgba(240, 248, 255, 0.609);
+    margin-top: 14px;
+}
+svg{
+    color: #cedaf3;
+}
+.LG{
+    background: linear-gradient(to right,rgba(0, 0, 255, 0.874), rgba(255, 0, 0, 0.562));
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.FooterBgImg{
+    background-image: url(/Images/download.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.DecreaseFont{
+    font-size: 13px;
+}
+@media only screen and (max-width: 600px) {
+    
+   
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* .SectionBContent{
+        height: 250px;
+        width: 400px;
+    }
+    .SectionBContent div{
+        margin-inline: 20px;
+        margin-left: 50px;
+
+    } */
+    
+     
+
+}
