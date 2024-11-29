@@ -181,15 +181,31 @@ svg{
 
 
 @media only screen and (max-width: 600px) {
-    
+    .AdjustVideoResponse{
+        height: 190px;
+        margin-top: 20px;
+     }
    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+
+    .AdjustVideoResponse{
+        height: 220px;
+        margin-top: 20px;
+     }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    .AdjustVideoResponse{
+        height: 200px;
+        margin-top: 20px;
+     }
+
+
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -204,6 +220,10 @@ svg{
     } */
      .AjustSpaceInLg{
         margin-bottom: 150px;
+     }
+
+     .AdjustVideoResponse{
+        height: 220px;
      }
     
      
