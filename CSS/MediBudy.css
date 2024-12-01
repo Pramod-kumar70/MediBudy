@@ -172,14 +172,25 @@ svg{
 
 
 
+.BgHeartImg{
+    background-image: url(/Images/heart-beat.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.BgLG{
+    background: linear-gradient(to right,#0F55AF, #66A8FC);
+
+}
 
 
+.BGWarning div{
+    background-color: #FFFAD6;
+    border: 1px solid black;
+}
 
-
-
-
-
-
+.CustomBgColor{
+    background-color:#b3c4e8;
+}
 @media only screen and (max-width: 600px) {
     .AdjustVideoResponse{
         height: 190px;
