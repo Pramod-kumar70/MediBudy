@@ -224,8 +224,21 @@ svg{
     overflow: scroll; 
     overflow-x: hidden;
      scrollbar-color: blue white;
+     
+     scrollbar-width:thin;
 }
 
+
+/* Card Click Css */
+.CardClickBgImg{
+    background-image: url(/Images/CardClickLg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.BgColor1{
+    background-color: #f6dee5;
+}
 @media only screen and (max-width: 600px) {
     .AdjustVideoResponse{
         height: 190px;
