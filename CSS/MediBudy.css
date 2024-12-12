@@ -276,6 +276,60 @@ svg{
 }
 
 
+.BGImgSectionA{
+    background-image: url(/Images/SectionAbgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70%;
+    padding-block: 300px;
+   
+}
+
+
+
+
+
+.HeightHR{
+            border: none;
+            height: 4px;
+            background-color: #ffbf00;
+            margin: 20px 0;
+            border-radius: 10px;
+}
+
+
+.BgImgS4{
+    background-image: url(/Images/gold-bg.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 600px) {
     .AdjustVideoResponse{
         height: 190px;
